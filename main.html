@@ -1,27 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Screen Size</title>
-    <script type="text/javascript">
-        window.addEventListener("resize", updateSize);
-
-        function updateSize() {
-            let width = window.innerWidth;
-            let height = window.innerHeight;
-
-            let sizeInfo = document.getElementById("sizeInfo");
-            sizeInfo.innerHTML = "Width: " + width + "px" + " | Height: " + height + "px";
-        }
-    </script>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div id="sizeInfo">
-        <h1>Width: 0px | Height: 0px</h1>
-    </div>
+	<div id="sizeInfo">
+    <h1>Width: <span id="width"></span> 
+		Height: <span id="height"></span></h1>
+  </div
+	<!-- the entire body must be written by student -->
+    <script type="text/javascript" src="./script.js">
+</script>
+
 </body>
 
 </html>
